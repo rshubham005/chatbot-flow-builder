@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import { useReactFlow } from 'reactflow';
 
 // eslint-disable-next-line react/prop-types
 const UpdateNode = ({

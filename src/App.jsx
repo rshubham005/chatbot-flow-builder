@@ -54,7 +54,7 @@ const App = () => {
 
       // keep track of which target handles are connected
       if (targetHandle.includes(params.target)) return
-      targetHandle = targetHandle.concat(params.target)
+      targetHandle = targetHandle.concat(params.target)// eslint-disable-line
       setTargetHandles(targetHandle)
       // console.log('target', targetHandle)
     },

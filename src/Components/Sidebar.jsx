@@ -11,7 +11,7 @@ const Sidebar = () => {
   }, [showUsage])
 
   // display show node usage information on first load of the application
-  const displayUsage = showUsage ? '' : 'none'
+  const displayUsage = showUsage ? '' : 'none'// eslint-disable-line
 
   const onDragStart = (event, nodeType) => {
     event.dataTransfer.setData('application/reactflow', nodeType)
