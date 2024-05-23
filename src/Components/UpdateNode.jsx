@@ -17,7 +17,7 @@ const UpdateNode = ({
     // const nodes = reactFlowInstance.getNodes();
 
     setNodeName(selectedNode.data['label']);
-  }, [id]);
+  }, [selectedNode.data,id]);
 
   // update the node on click of the save changes button
   useEffect(() => {
