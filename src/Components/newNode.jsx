@@ -1,4 +1,5 @@
-import { Handle, Position } from 'reactflow'
+import { Handle, Position } from 'reactflow';
+import { BiMessageRoundedDetail } from "react-icons/bi";
 
 // custom node so that we can add nodes with header & custom node styling
 const Node = ({ data }) => {
@@ -27,7 +28,7 @@ const Node = ({ data }) => {
             className="material-symbols-outlined"
             style={{ fontSize: 13, paddingRight: 7, paddingTop: 5 }}
           >
-            chat
+            <BiMessageRoundedDetail />
           </span>
           {data.heading}
         </div>

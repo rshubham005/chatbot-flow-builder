@@ -15,7 +15,7 @@ import './index.css'
 import Topbar from './Components/Topbar'
 
 let id = 0
-const defaultViewport = { x: 0, y: 0, zoom: 1 };
+const defaultViewport = { x: 0, y: 0, zoom: 0.8 };
 const App = () => {
   const reactFlowWrapper = useRef(null)
   const [nodes, setNodes, onNodesChange] = useNodesState([])

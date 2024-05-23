@@ -13,7 +13,7 @@
     "reactflow": "^11.11.3",
     "web-vitals": "^2.1.4"
   },
-  "devDependencies":{
+  "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.16.6"
   },
   "scripts": {

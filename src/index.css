@@ -162,7 +162,7 @@ button:focus-visible {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 90px;
+  width: 150px;
 }
 
 .appnode:hover {
