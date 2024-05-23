@@ -45,7 +45,7 @@ const App = () => {
 
       // check if sourcehandle is already connected to node via a edge if it exists then allow another connection
       if (sourceHandles.includes(params.source)) return
-      sourceHandles = sourceHandles.concat(params.source)
+      sourceHandles = sourceHandles.concat(params.source) // eslint-disable-line
       // console.log('source', sourceHandles)
 
       setEdges(
